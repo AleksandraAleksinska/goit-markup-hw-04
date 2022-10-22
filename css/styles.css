@@ -350,14 +350,13 @@ body {
   width: 254px;
   display: flex;
   justify-content: space-between;
-  margin-right: 371px;
+  margin-right: 345px;
 }
 .nav-list {
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 30px;
 }
 
 .nav-item {
@@ -374,7 +373,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  margin-right: 50px;
+  margin-right: 30px;
 }
 
 .button-style {
@@ -474,6 +473,7 @@ body {
 }
 .section-primary {
   background-color: var(--grey-secondary);
+  background-image: url(../images/background.jpg);
   color: var(--white);
   text-align: center;
   display: flex;
@@ -561,4 +561,33 @@ body {
   margin-bottom: 20px;
   margin-right: 24px;
   margin-left: 24px;
+}
+
+.contacts {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+}
+.icon-background {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding: 25px 102.34px;
+}
+.lorem-icon {
+  display: flex;
+  justify-items: center;
+  text-align: center;
+}
+.sm-icons {
+  margin-top: 16px;
+}
+.client-icon {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: flex;
 }
