@@ -15,7 +15,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <header class="header-portfolio">
+      <header class="header-agency">
         <div class="container">
           <nav class="nav-style">
             <a
@@ -57,12 +57,24 @@
             </ul>
           </nav>
           <ul class="nav-list">
-            <li>
+            <li class="contacts">
+              <a href="mailto:info@devstudio.com">
+              <svg class="svg-style" width="16" height="12">
+                <use xlink: href="./images/icons.svg#icon-envelope" >
+                
+                </use>
+              </svg>
+            </a>
               <a class="nav-contact link-style" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="contacts">
+              <a href="tel:+48111111111">
+              <svg class="svg-style" width="10" height="16">
+                <use xlink: href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </a>
               <a class="nav-contact link-style" href="tel:+48111111111"
                 >+48111111111</a
               >
@@ -234,7 +246,8 @@
       </main>
 
       <footer class="footer-section">
-        <a
+        <div>
+          <a
           class="webstudio link-style"
           href="#"
           target="_blank"
@@ -261,6 +274,40 @@
             >
           </li>
         </ul>
+        </div>
+        <div class="footer-sm-section">
+          <h3>DOŁĄCZ DO NAS</h3>
+          <ul class="nav-list footer-sm-icons">
+            <li>
+              <a href="#" target="_blank" title="Instagram">
+              <svg class="footer-sm-icon"  width="44" height="44">
+                <use xlink: href="./images/icons.svg#icon-ellipse-insta-dark"></use>
+              </svg>
+            </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" title="Twitter">
+              <svg class="footer-sm-icon" width="44" height="44">
+                <use xlink: href="./images/icons.svg#icon-ellipse-twitter-dark"></use>
+              </svg>
+            </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" title="Facebook">
+              <svg class="footer-sm-icon" width="44" height="44">
+                <use xlink: href="./images/icons.svg#icon-ellipse-fb-dark"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" title="In">
+              <svg class="footer-sm-icon" width="44" height="44">
+                <use xlink: href="./images/icons.svg#icon-ellipse-in-dark"></use>
+              </svg>
+            </a>
+            </li>
+          </ul>
+          </div>
       </footer>
     </div>
   </body>
